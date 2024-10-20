@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './header.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -19,8 +19,8 @@ const Header = () => {
         <h4>Computacao</h4>
         </Navbar.Brand>
         <Nav>
-          <Nav.Link href="#home">Localização</Nav.Link>
-          <Nav.Link href="#features">Cadastro</Nav.Link>
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#features">Features</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
