@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
-import Header from './components/header/Header'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import Header from './components/header/Header';
+import Location from './components/location/Location'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
       <Header/>
+      <Location/>
     </div>
   )
 }
 
 export default App
+
